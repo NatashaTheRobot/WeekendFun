@@ -1,0 +1,1 @@
+Fun weekend trips with friends!
