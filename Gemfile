@@ -2,6 +2,9 @@ source :rubygems
 
 gem 'rails', '3.2.7'
 gem 'pg', '0.14.0'
+gem 'bootstrap-sass', '~> 2.1.0.0'
+gem "twitter-bootstrap-rails"
+
 
 
 group :development, :test do
@@ -17,6 +20,7 @@ group :development, :test do
   gem 'spork', '0.9.0'
   gem 'faker'
   gem 'shoulda-matchers'
+  gem 'database_cleaner'
 end
 
 # Gems used only for assets and not required
